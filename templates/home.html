@@ -1,8 +1,20 @@
 <html>
-<head>
-    <link rel="stylesheet" href='/static/home.css' />
-</head>
 <body>
 <h1>My website</h1>
 </body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.birds.min.js') }}"></script>
+<script>
+    VANTA.BIRDS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 1200.00,
+      minWidth: 200.00,
+      scale: 1.50,
+      scaleMobile: 1.00
+    })
+</script>
 </html>
