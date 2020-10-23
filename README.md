@@ -1,6 +1,8 @@
 # p2triviaweb
 Welcome to our Trivia Game Website and Portfolio! In this program you willl answer a series of questions on either easy, medium, or hard mode and get a resulting animation based on your score! It is an interactive game.
 
+# Github Usernames
+
 # Latest Changes
 ### As of Week 5
 * Fixed mid_ending
