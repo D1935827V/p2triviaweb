@@ -1,3 +1,6 @@
+# Run Instructions
+To run what we have so far, clone this repository and simply run it on your machine. The video we provided outlines the changes and developments we made this week, as well as future goals. 
+
 # Portfolio Overview
 Welcome to our team's portfolio. This is a wesbite that allows us to provide links to all of our work, including our first Trivia Game project, the links to which are provided when you selected "Trivia Game" from the menu. On the main menu, you can find links to our project overview and our journals. There is also a Guess the Number game, the links for which are still in progress. 
 
