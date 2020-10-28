@@ -4,7 +4,7 @@ To run what we have so far, clone this repository and simply run it on your mach
 # Portfolio Overview
 Welcome to our team's portfolio. This is a wesbite that allows us to provide links to all of our work, including our first Trivia Game project, the links to which are provided when you selected "Trivia Game" from the menu. On the main menu, you can find links to our project overview and our journals. There is also a Guess the Number game, the links for which are still in progress. 
 
-# Week 8 CHanges
+# Week 8 Changes
 This week, we set our goals early on and worked hard to meet them. Ida and Nivu would work on the cosmetics (Jinja & CSS), Dane and Eva would work on incorporating Bootstrap, and Crystal would develop routes and flow and create direct paths from one source to another instead of linkin. We also added an about me page and apent time formatting our website.
 
 # Week 7 Changes
