@@ -1,31 +1,17 @@
-print("This is a Reaction Time game")
+{% block head %}
+<title>{{name}} | Guess the Number </title>
+{% endblock %}
 
-#This command helps you loop
-highScore = 0
-print(highScore)
-print(" ")
-while True:
-  print("-----------------------")
-  print("Click enter to continue")
-  input("-----------------------")
-  
-  from time import sleep, time
-  from random import randint
+<!-- Project Information  -->
+{% block title %}
+<h1>Guess the Number Game</h1>
+{% endblock %}
 
-  random_wait = randint(1, 7)  #generate random wait time
-  print('Waiting...')
-  sleep(random_wait)
-  start = time()
-  
-  print('Quick, press the Enter key!')
-  input()  # keyboard input sets end TIME
-  rt = time() - start
-  print('You took', rt, 'seconds')
-  if rt > 0.53:
-    
-    print("Your highScore is ", highScore)
-  
-  elif rt < 0.53:
+{% block link1 %}
+<button type="button" class="btn btn-info" style="background: pink;">
+  <a href="https://repl.it/@CrystalWidjaja/reaction-time-final#main.py" class="btn" role="button">Padlet</a>
+</button>
+{% endblock %}
     
     response = input("Press y to play again or q to quit")
   
