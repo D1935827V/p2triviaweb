@@ -32,10 +32,6 @@ def reaction_time():
 def about():
     return render_template('about.html', aboutus=aboutus.about())
 
-@app.route('/trivia')
-def trivia():
-    return render_template('trivia.html')
-
 if __name__ == '__main__':
     app.run(debug=True, port='3000')
 
