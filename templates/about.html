@@ -9,12 +9,14 @@
 
         {% for about in aboutus: %}
         {% set name = about["name"] %}
+        {% set image = about["image"] %}
         {% set birthday = about["birthday"] %}
         {% set mbti = about["mbti"] %}
         {% set funfact = about["funfact"] %}
         {% set sign = about["sign"] %}
         <ol>
             <h3>Name: <span style="color: #ff4500;">{{name}}</span></h3>
+            <img src="{{ url_for('static', filename= image) }}">
             <li>Birthday: <span style="color: #ff4500;">{{birthday}}</span></li>
             <li>MBTI: <span style="color: #ff4500;">{{mbti}}</span></li>
             <li>Star Sign: <span style="color: #ff4500;">{{sign}}</span></li>
