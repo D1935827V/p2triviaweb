@@ -7,37 +7,8 @@
     <link rel="stylesheet" href='/static/home.css' />
 </head>
 <body style="background-color:#cee8f0">
+{% include 'nav.html' %}
 
-<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #fffffff0; font-family:times new roman;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Home</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <div class="dropdown" style="align: float; font-family:times new roman;">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Portfolio
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="http://127.0.0.1:3000/sub">Project Plan</a>
-                        <a class="dropdown-item" href="/trivia">Trivia Game</a>
-                        <a class="dropdown-item" href="/guess_the_number">Guess The Number</a>
-                        <a class="dropdown-item" href="/hangman">Hangman</a>
-                        <a class="dropdown-item" href="/reaction_time">Reaction Time</a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item active">
-                <a href="/about" class="btn btn-outline-secondary btn-sm" style="margin-left: 10px; margin-right: 10px; margin-top: 5px; font-family:times new roman;">About Us</a>
-            </li>
-            <li>
-                <p style="color: black; text-align: left; margin-left: 1470px; margin-top: 6px; margin-bottom: 0px;">Scrum Team Crystal</p>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <p></p>
 <h1 style="color: black; text-align: center; font-family:times new roman;">Website Portfolio</h1>
@@ -45,36 +16,28 @@
 <div class="card text-dark bg-light mb-3" data-toggle="popover" title="Test your skills!" style="max-width: 15rem; margin-left: 55px; margin-right: 55px; float: right; font-family:times new roman;">
     <div class="card-body">
         <h5 class="card-title">Hangman</h5>
-        <img src="..." class="card-img-top" alt="...">
-        <p class="card-text">Play Hangman!</p>
-        <a href="/hangman" class="btn btn-secondary">View Hangman</a>
+        <a href="/hangman" class="btn btn-secondary">Play Hangman!</a>
     </div>
 </div>
 
 <div class="card text-dark bg-light mb-3" data-toggle="popover" title="Test your skills!" style="max-width: 15rem; margin-left: 55px; float: right; margin-right: 55px; font-family:times new roman;">
     <div class="card-body">
         <h5 class="card-title">Guess the Number</h5>
-        <img src="..." class="card-img-top" alt="...">
-        <p class="card-text">Play Guess the Number!</p>
-        <a href="/guess_the_number" class="btn btn-secondary">View Guess the Number</a>
+        <a href="/guess_the_number" class="btn btn-secondary">Play Guess the Number!</a>
     </div>
 </div>
 
 <div class="card text-dark bg-light mb-3" data-toggle="tooltip" data-placement="top" title="It's a very exciting game!" style="max-width: 30rem; margin-left: 55px; float: right; margin-right: 55px; font-family:times new roman;">
     <div class="card-body">
         <h5 class="card-title">Trivia Game</h5>
-        <img src="..." class="card-img-top" data-placement="bottom" alt="...">
-        <p class="card-text">Play Trivia Game!</p>
-        <a href="/trivia" class="btn btn-secondary">View Trivia Game</a>
+        <a href="/trivia" class="btn btn-secondary">Play Trivia Game!</a>
     </div>
 </div>
 
 <div class="card text-dark bg-light mb-3" data-toggle="tooltip" data-placement="top" title="It's a very exciting game!" style="max-width: 15rem; margin-left: 55px; float: right; margin-right: 55px; font-family:times new roman;">
     <div class="card-body">
         <h5 class="card-title">Reaction Time</h5>
-        <img src="..." class="card-img-top" data-placement="bottom" alt="...">
-        <p class="card-text">Play Reaction Time!</p>
-        <a href="/reaction_time" class="btn btn-secondary">View Reaction Time</a>
+        <a href="/reaction_time" class="btn btn-secondary">Play Reaction Time!</a>
     </div>
 </div>
 
