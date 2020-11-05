@@ -25,8 +25,15 @@
                 <a href="/about" class="btn btn-outline-secondary btn-sm" style="margin-left: 10px; margin-right: 10px; margin-top: 5px; font-family:times new roman;">About Us</a>
             </li>
             <li class="nav-item active">
-                <a href="calc"><img src="{{ url_for('static', filename='calc.png') }}" alt="calculator icon" style="width:42px;height:42px;"></a>
+                            <a href="calc"><img src="{{ url_for('static', filename='calc.png') }}" alt="calculator icon" style="width:42px;height:42px;"></a>
 
+            </li>
+            <li>
+                <audio controls>
+                    <source src="lofi.ogg" type="audio/ogg">
+                    <source src="{{ url_for('static', filename='lofi.mp3') }}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </li>
             <li>
                 <p style="color: black; text-align: left; margin-left: 820px; margin-top: 6px; margin-bottom: 0px;">Scrum Team Crystal</p>
