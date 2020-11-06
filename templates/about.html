@@ -7,9 +7,10 @@
     <link rel="stylesheet" href='/static/home.css' />
     <title>Crystal Team Profiles</title>
 </head>
+<!-- includes navigation bar -->
 {% include 'nav.html' %}
 <body style="background-color:#CCCCFF">
-
+<!-- for every person in aboutus from main.py, these variables are set -->
         {% for about in aboutus: %}
         {% set name = about["name"] %}
         {% set image = about["image"] %}
@@ -17,8 +18,8 @@
         {% set mbti = about["mbti"] %}
         {% set funfact = about["funfact"] %}
         {% set sign = about["sign"] %}
-        <ol>
-            <h3>Name: <span style="color: #00008B;">{{name}}</span></h3>
+        <ol> <!-- <ol> tag indicates ordered list -->
+            <h3>Name: <span style="color: #00008B;">{{name}}</span></h3> <!-- variable printed after label -->
             <img src="{{ url_for('static', filename= image) }}">
             <li>Birthday: <span style="color: #00008B;">{{birthday}}</span></li>
             <li>MBTI: <span style="color: #00008B;">{{mbti}}</span></li>
