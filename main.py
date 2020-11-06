@@ -1,9 +1,10 @@
 import aboutus
-
+import all_page
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# @app.route maps specific URL to specific function-- in this case, rendering the associated html files
 @app.route('/')
 def index():
     return render_template('main.html')
@@ -30,11 +31,15 @@ def reaction_time():
 
 @app.route('/about')
 def about():
-    return render_template('about.html', aboutus=aboutus.about())
+    return render_template('about.html', aboutus=aboutus.about()) #sets up for passing data
 
 @app.route('/calc')
 def calc():
     return render_template('Calculator.html')
+
+@app.route('/all')
+def all():
+    return render_template('all.html', all_page=all_page.all_games()) #sets up for passing data
 
 if __name__ == '__main__':
     app.run(debug=True, port='3000')
