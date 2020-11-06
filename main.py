@@ -29,6 +29,10 @@ def trivia():
 def reaction_time():
     return render_template('reaction_time.html')
 
+@app.route('/rps')
+def rps():
+    return render_template('rps.html')
+
 @app.route('/about')
 def about():
     return render_template('about.html', aboutus=aboutus.about()) #sets up for passing data
