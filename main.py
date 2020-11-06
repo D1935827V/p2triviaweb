@@ -1,5 +1,5 @@
 import aboutus
-
+import all_page
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -35,6 +35,10 @@ def about():
 @app.route('/calc')
 def calc():
     return render_template('Calculator.html')
+
+@app.route('/all')
+def all():
+    return render_template('all.html', all_page=all_page.all_games())
 
 if __name__ == '__main__':
     app.run(debug=True, port='3000')
