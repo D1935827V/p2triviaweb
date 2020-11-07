@@ -33,9 +33,9 @@ def reaction_time():
 def rps():
     return render_template('rps.html')
 
-@app.route('/mad_libs')
-def mad_libs():
-    return render_template('mad_libs.html')
+@app.route('/madlibs')
+def madlibs():
+    return render_template('madlibs.html')
 
 @app.route('/about')
 def about():
