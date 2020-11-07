@@ -1,7 +1,7 @@
 def nivu():
     name = "Nivu Rethnakar"
     image = "Nivu.PNG"
-    video = "Ida.mp4"
+    video = "Nivu.mp4"
     birthday = "July 29"
     mbti = "INTP"
     funfact = "I love amber scented candles!"
