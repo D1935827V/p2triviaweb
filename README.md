@@ -20,8 +20,8 @@ To run what we have so far, clone this repository and simply run it on your mach
 | --- | --- |
 | Big Idea 1: Creative Computing | Incorporated our own ideas and interests to fufill our visions. |
 | Big Idea 2: Data | Defined and established data in our Python files. Rendered the data through the use of HTML (Backend to fontend). |
-| Big Idea 3: Algorithms and Programming | info |
-| Big Idea 4: Computer Systems and Network | info |
+| Big Idea 3: Algorithms and Programming |  |
+| Big Idea 4: Computer Systems and Network |  |
 | Big Idea 5: Impact of Computing | We learned that a website can be a very beneficial way of displaying information and sharing ideas to group members or individuals. |
 
 ## Authors
