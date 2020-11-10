@@ -14,6 +14,9 @@
   background-attachment: fixed;
   background-size: cover;
 }
+span {
+  background-color: #f18973;
+}
 </style>
 
 <body>
@@ -22,13 +25,13 @@
 
 <p></p>
 <!-- Display title -->
-<h1 style="color: black; text-align: center; font-family:times new roman;">Website Portfolio</h1>
+<h1 style="color: black; text-align: center; font-family:times new roman;"><span>Website Portfolio</span></h1>
 <p></p>
 <!-- Cards with our projects on them, links included in href -->
 <div class="card text-dark bg-light mb-3" data-toggle="popover" title="Test your skills!" style="max-width: 15rem; margin-left: 55px; margin-right: 55px; float: right; font-family:times new roman;">
     <div class="card-body">
         <h5 class="card-title">Hangman</h5>
-        <a href="/hangman" class="btn btn-secondary">Play Hangman!</a>
+        <a href="/hangman"><img src="{{ url_for('static', filename='hangman.png') }}" alt="hangman game" style="width:200px;height:175px;"></a>
     </div>
 </div>
 
@@ -62,8 +65,8 @@
 
 <div class="card text-dark bg-light mb-3" data-toggle="popover" title="Test your skills!" style="max-width: 15rem; margin-left: 55px; margin-right: 55px; float: right; font-family:times new roman;">
     <div class="card-body">
-        <h5 class="card-title">Mad Libs</h5>
-        <a href="/madlibs" class="btn btn-secondary">Play Mad Libs!</a>
+        <h5 class="card-title">Madlibs:</h5>
+        <a href="/madlibs"><img src="{{ url_for('static', filename='calc.png') }}" alt="calculator icon" style="width:42px;height:42px;"></a>
     </div>
 </div>
 
