@@ -17,7 +17,7 @@ To run what we have so far, clone this repository and simply run it on your mach
 
 ## Map of Provided Code To Meet AP CSP Requirements
 | Criteria | Web Portfolio Usage |
-| ------------------------------------------------------------------------------------------------------- |
+| --- | --- |
 | Big Idea 1: Creative Computing | Incorporated our own ideas and interests to fufill our visions. |
 | Big Idea 2: Data | Defined and established data in our Python files. Rendered the data through the use of HTML (Backend to fontend). |
 | Big Idea 3: Algorithms and Programming | info |
