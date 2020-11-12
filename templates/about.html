@@ -19,7 +19,7 @@
         {% set mbti = about["mbti"] %}
         {% set funfact = about["funfact"] %}
         {% set sign = about["sign"] %}
-        <ol> <!-- <ol> tag indicates ordered list -->
+        <ul> <!-- <ol> tag indicates ordered list -->
             <h3>Name: <span style="color: #00008B;">{{name}}</span></h3> <!-- variable printed after label -->
             <img src="{{ url_for('static', filename= image) }}">
             <video width="320" height="240" controls>
@@ -31,7 +31,7 @@
             <li>MBTI: <span style="color: #00008B;">{{mbti}}</span></li>
             <li>Star Sign: <span style="color: #00008B;">{{sign}}</span></li>
             <li>Fun Fact: <span style="color: #00008B;">{{funfact}}</span></li>
-        </ol>
+        </ul>
     {% endfor %}
 
 </body>
