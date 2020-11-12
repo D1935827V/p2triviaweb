@@ -24,6 +24,25 @@ To run what we have so far, clone this repository and simply run it on your mach
 | Big Idea 4: Computer Systems and Network | As of Week 10, both Dane and Eva are able to run their own web serve on their Raspberry Pis. |
 | Big Idea 5: Impact of Computing | We learned that a website can be a very beneficial way of displaying information and sharing ideas to group members or individuals. |
 
+## Overview of Code
+<ol>
+<li>Frontend: HTML, Jinja Templates, For Loops, Conditionals</li>
+<ol>
+<li>game files, home page, nav.html, and about us page</li>
+</ol>
+<li>Backend: Running Server, Routes, Python data
+<ol>
+<li>main.py, aboutus.py, all_page.py</li>
+<li>Website runs from IntelliJ, have configurations and Python interpreters</li>
+</ol>
+</li>
+<li> Deploy: Self Hosting
+<ol>
+<li>Self hosting through running web servers on Raspberry Pis</li>
+</ol>
+</li>
+</ol>
+
 ## Authors
 Scrum Team Sophieb
 
