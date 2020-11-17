@@ -1,26 +1,38 @@
 def trivia():
-    embed = "https://Project-1.danevestal.repl.run"
+    embed = "https://repl.it/@DaneVestal/Project-1?lite=true"
     title = "Trivia Game"
     section = {"embed": embed, "title": title}
     return section
 
 def guess():
-    embed = "https://Guess-the-number-2.idamobini.repl.run"
+    embed = "https://repl.it/@idamobini/Guess-the-number-2?lite=true"
     title = "Guess the Number"
     section = {"embed": embed, "title": title}
     return section
 
 def hangman():
-    embed = "https://Hangman-1.crystalwidjaja.repl.run"
+    embed = "https://repl.it/@CrystalWidjaja/Hangman-1?lite=true"
     title = "Hangman"
     section = {"embed": embed, "title": title}
     return section
 
 def reaction():
-    embed = "https://reaction-time-final.crystalwidjaja.repl.run"
+    embed = "https://repl.it/@CrystalWidjaja/reaction-time-final?lite=true"
     title = "Reaction Time"
     section = {"embed": embed, "title": title}
     return section
 
+def madlibs():
+    embed = "https://repl.it/@nivupai/MadLibs?lite=true"
+    title = "Mad Libs"
+    section = {"embed": embed, "title": title}
+    return section
+
+def rps():
+    embed = "https://repl.it/@nivupai/RPS?lite=true"
+    title = "Rock, Paper, Scissors"
+    section = {"embed": embed, "title": title}
+    return section
+
 def all_games():
-    return [trivia(), guess(), hangman(), reaction()]
+    return [trivia(), guess(), hangman(), reaction(), madlibs(), rps()]
