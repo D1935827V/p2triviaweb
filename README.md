@@ -7,7 +7,7 @@ To run what we have so far, clone this repository and simply run it on your mach
 ## Latest Changes
 
 ### As of Week 10
-> In Week 10, the last week of our project, we figured out port forwarding to provide a runtime link of our website and integrated our project into the Night At the Museum collabortaive website. We also made final additions to our project, including the game images (made by Crystal) and making sure everything in our website worked and looked great. The aracade theme was a bit of a challenge but ended up really pulling our website together. 
+> In Week 10, the last week of our project, we figured out port forwarding to provide a runtime link of our website and integrated our project into the Night At the Museum collabortaive website. We also made final additions to our project, including finalizing the game images (made by Crystal) and making sure everything in our website worked and looked great. The aracade theme was a bit of a challenge but ended up really pulling our website together. 
 
 ### As of Week 9
 > This week we have switched responsibilities - so everyone who worked on front-end is working on the back-end and vice versa - and set new goals. On Monday, we made our main page more aesthetically pleasing by adding photos and setting a proper theme. Following the lecture on embedding on Tuesday, we added in all of our portfolio repl.its as embeds into the .html files. This way, when you click on a link, it takes you straight to the running code! However, Repl.It is down right now but our direct links can still be seen. There are two new games added: Rock, Paper Scissors, and Mad Libs. Our About Us page also now includes pictures, included in the for loop, and there is a new page that includes all of our games and also utilizes a for loop in Jinja. Several comments have been made here and there, with more to come. 
@@ -45,6 +45,34 @@ To run what we have so far, clone this repository and simply run it on your mach
 </ol>
 </li>
 </ol>
+
+## Class Grading Criteria
+
+**Critical Thinking, Program, Design, Logic, Implementation - Portfolio and Project complexities:** 
+* Our README.md displays certain features of our project through the week changes, as well as the overview of our code and requirements. It shows how we worked together as a team and worked through the use of logic, design, and code to create our project. Links located at the bottom of this page highlight our design features through our project plan and padlets, as well as our code and algorithms in our journals, and in the AP CSP requirements above.
+
+**Communication and Presentation, Testing:**
+* [Raspberry Pi Link](http://99.88.196.26:80) 
+* [N@tM Link](http://ntm.nighthawkcoders.cf/) 
+* [Github Link](https://github.com/D1935827V/p2triviaweb)
+
+**Collaboration in the development of a solution:** 
+* [Peer collaboration document](https://docs.google.com/document/d/1tYky2fXS1FWZIx98fL1k2qPWL4rRHPx06US9KwHXmNU/edit)
+
+**Creativity and Intangibles:**
+* A big highlight of our project was our arcade theme. It fit perfectly with our portfolio for showcasing other projects, which were mostly our Python games.
+* Challenges we overcame were integrating our project into the N@tM website, with getting our pictures to load and dealing with code getting deleted, figuring out how to port-foward with at&t and learning the router, and many more throughout the trimester. We all worked great as a team to solve every problem and help each other out, which allowed us to learn **so** much.
+
+## Links
+* [Project Plan](https://docs.google.com/document/d/1LHVV9tkq1ZkMl9PL1fb1XakB3tWm9ZTHp14jibV9-nA/edit)
+* Original Project Padlets:
+  * [Repl Website Portfolio Project](https://padlet.com/evag55486/isztipu406hhtt5)
+  * [Flask Website Portfolio Project](https://padlet.com/evag55486/qjg36xic1x5oelpg)
+* [Peer grading document](https://docs.google.com/document/d/1tYky2fXS1FWZIx98fL1k2qPWL4rRHPx06US9KwHXmNU/edit)
+* Journals:
+  * [Eva and Nivu](https://docs.google.com/document/d/18O2HvVkvtFFwsPTAoPd-iHJlnpA-x1gxcvlWgH4BiO8/edit?usp=sharing)
+  * [Ida, Crystal, and Dane](https://docs.google.com/document/d/1GpAe43iElDuxAAK-HtLksEdyVEd0FFdezidZMRNoyDw/edit?usp=sharing)
+
 
 ## Authors
 Scrum Team Sophieb
